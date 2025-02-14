@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RideSmart - Homepage</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> <!-- FontAwesome Icons -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #001f3f;
+            color: white;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .auth-buttons button {
+            margin-left: 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .register {
+            background-color: white;
+            color: #001f3f;
+        }
+        .signin {
+            background-color: #007bff;
+            color: white;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(to bottom, #001f3f, #003366);
+            color: white;
+            position: relative;
+        }
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .highlight {
+            color: #28a745;
+            font-weight: bold;
+        }
+        .bus-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            display: block;
+        }
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+            padding: 10px;
+            background: white;
+            border-radius: 10px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .search-field {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .search-btn {
+            padding: 10px 20px;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            background: white;
+            margin-top: -20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .feature {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .reviews {
+            text-align: center;
+            padding: 40px;
+        }
+        .review-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            align-items: center;
+        }
+        .review-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            max-width: 250px;
+        }
+        .prev, .next {
+            font-size: 24px;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            background: #001f3f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        footer ul {
+            list-style: none;
+        }
+        footer li {
+            display: inline;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">RideSmart</div>
+        <div class="auth-buttons">
+            <button class="register">Register</button>
+            <button class="signin">Sign In</button>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Smarter, <span class="highlight">Safer</span> and Faster <br>Transportation for Students</h1>
+            <p>Search for smarter rides and enjoy a seamless to-and-from trips everyday.</p>
+            <img src="bus-sketch 1.png" alt="Green Bus" class="bus-image"> <!-- Replace with actual image path -->
+        </div>
+        
+        <div class="search-bar">
+            <div class="search-field"><i class="fa-solid fa-location-dot"></i> Location</div>
+            <div class="search-field"><i class="fa-solid fa-map"></i> Destination</div>
+            <div class="search-field"><i class="fa-solid fa-calendar"></i> Date</div>
+            <div class="search-field"><i class="fa-solid fa-user"></i> Passenger</div>
+            <button class="search-btn">Search</button>
+        </div>
+    </section>
+    
+    <section class="features">
+        <div class="feature">
+            <i class="fa-solid fa-phone"></i>
+            <p>With 24/7 customer service, we’ve got your back on every ride.</p>
+        </div>
+        <div class="feature">
+            <i class="fa-solid fa-shield"></i>
+            <p>Cancel anytime and get a 100% refund - no questions asked.</p>
+        </div>
+    </section>
+    
+    <section class="reviews">
+        <h2>Rated by <span class="highlight">students</span>, love by all</h2>
+        <div class="review-container">
+            <button class="prev">&#8249;</button>
+            <div class="review-card">
+                <p class="stars">⭐⭐⭐⭐⭐</p>
+                <p>Driver was very helpful and polite. Safe drive all the way.</p>
+                <span class="author">Jael, 16 hours ago</span>
+            </div>
+            <div class="review-card">
+                <p class="stars">⭐⭐⭐⭐⭐</p>
+                <p>Driver was very helpful and polite. Safe drive all the way.</p>
+                <span class="author">Jael, 16 hours ago</span>
+            </div>
+            <button class="next">&#8250;</button>
+        </div>
+    </section>
+    
+    <footer>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Customer Services</li>
+        </ul>
+    </footer>
+</body>
+</html>
