@@ -23,7 +23,7 @@ const SAMPLE_SLIDES = [
   {
     id: 2,
     title: "Machine Learning Fundamentals",
-    image: "https://cdn.pixabay.com/photo/2018/03/06/08/31/technology-3202409_1280.jpg",
+    image: "/marchine_learning.jpg",
     timeAgo: "3 days ago",
     downloads: 167,
     course: "Artificial Intelligence",
@@ -47,7 +47,7 @@ const SAMPLE_SLIDES = [
   {
     id: 5,
     title: "Natural Language Processing",
-    image: "https://cdn.pixabay.com/photo/2017/08/01/08/29/data-2562635_1280.jpg",
+    image: "/natural_language.jpg",
     timeAgo: "1 week ago",
     downloads: 176,
     course: "Artificial Intelligence",
@@ -55,7 +55,7 @@ const SAMPLE_SLIDES = [
   {
     id: 6,
     title: "Computer Vision Basics",
-    image: "https://cdn.pixabay.com/photo/2017/05/15/23/53/artificial-intelligence-2316208_1280.jpg",
+    image: "/computer_vision.jpg",
     timeAgo: "2 weeks ago",
     downloads: 143,
     course: "Artificial Intelligence",
@@ -65,7 +65,7 @@ const SAMPLE_SLIDES = [
   {
     id: 7,
     title: "Accounting Principles & Concepts",
-    image: "https://cdn.pixabay.com/photo/2017/01/31/23/42/accounting-2026300_1280.jpg",
+    image: "/accounting_principles.jpg",
     timeAgo: "1 week ago",
     downloads: 189,
     course: "Financial Accounting",
@@ -73,7 +73,7 @@ const SAMPLE_SLIDES = [
   {
     id: 8,
     title: "Balance Sheet Analysis",
-    image: "https://cdn.pixabay.com/photo/2016/11/29/06/18/balance-1867141_1280.jpg",
+    image: "/balance_sheet.jpg",
     timeAgo: "2 weeks ago",
     downloads: 156,
     course: "Financial Accounting",
@@ -81,7 +81,7 @@ const SAMPLE_SLIDES = [
   {
     id: 9,
     title: "Income Statement Overview",
-    image: "https://cdn.pixabay.com/photo/2016/11/29/03/36/calculations-1867140_1280.jpg",
+    image: "/income_statement.jpg",
     timeAgo: "3 days ago",
     downloads: 134,
     course: "Financial Accounting",
@@ -89,7 +89,7 @@ const SAMPLE_SLIDES = [
   {
     id: 10,
     title: "Cash Flow Statement Analysis",
-    image: "https://cdn.pixabay.com/photo/2015/11/15/22/09/office-1044919_1280.jpg",
+    image: "/cashflow.jpg",
     timeAgo: "5 days ago",
     downloads: 198,
     course: "Financial Accounting",
@@ -97,7 +97,7 @@ const SAMPLE_SLIDES = [
   {
     id: 11,
     title: "Financial Ratios & Metrics",
-    image: "https://cdn.pixabay.com/photo/2016/11/29/03/35/analytics-1867142_1280.jpg",
+    image: "/financial_ratio.jpg",
     timeAgo: "1 week ago",
     downloads: 167,
     course: "Financial Accounting",
@@ -105,7 +105,7 @@ const SAMPLE_SLIDES = [
   {
     id: 12,
     title: "Auditing Fundamentals",
-    image: "https://cdn.pixabay.com/photo/2016/11/29/03/34/audit-1867143_1280.jpg",
+    image: "/auditing.jpg",
     timeAgo: "2 weeks ago",
     downloads: 145,
     course: "Financial Accounting",
@@ -123,7 +123,7 @@ const SAMPLE_SLIDES = [
   {
     id: 14,
     title: "Simplex Method & Applications",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Simplex-method-3d.png/1200px-Simplex-method-3d.png",
+    image: "/simplex_method.jpg",
     timeAgo: "5 days ago",
     downloads: 145,
     course: "Linear Programming",
@@ -139,7 +139,7 @@ const SAMPLE_SLIDES = [
   {
     id: 16,
     title: "Sensitivity Analysis",
-    image: "https://cdn.pixabay.com/photo/2016/11/19/14/00/graph-1839407_1280.jpg",
+    image: "/sensitivity_analysis.jpg",
     timeAgo: "2 weeks ago",
     downloads: 156,
     course: "Linear Programming",
@@ -147,7 +147,7 @@ const SAMPLE_SLIDES = [
   {
     id: 17,
     title: "Transportation Problems",
-    image: "https://cdn.pixabay.com/photo/2015/11/06/13/27/analytics-1026935_1280.jpg",
+    image: "/transportation_problems.jpg",
     timeAgo: "3 weeks ago",
     downloads: 189,
     course: "Linear Programming",
@@ -155,7 +155,7 @@ const SAMPLE_SLIDES = [
   {
     id: 18,
     title: "Assignment Problems",
-    image: "https://cdn.pixabay.com/photo/2016/11/19/14/00/matrix-1839408_1280.jpg",
+    image: "/assignment_problem.jpg",
     timeAgo: "1 month ago",
     downloads: 167,
     course: "Linear Programming",
@@ -165,7 +165,7 @@ const SAMPLE_SLIDES = [
   {
     id: 19,
     title: "Java Fundamentals",
-    image: "https://cdn.pixabay.com/photo/2017/04/24/13/37/java-2255416_1280.png",
+    image: "/java_fundamentals.jpg",
     timeAgo: "5 days ago",
     downloads: 234,
     course: "Programming with JAVA",
@@ -173,7 +173,7 @@ const SAMPLE_SLIDES = [
   {
     id: 20,
     title: "Object-Oriented Programming in Java",
-    image: "https://cdn.pixabay.com/photo/2017/08/07/19/07/software-2607279_1280.jpg",
+    image: "/object_oriented.jpg",
     timeAgo: "1 week ago",
     downloads: 189,
     course: "Programming with JAVA",
@@ -189,7 +189,7 @@ const SAMPLE_SLIDES = [
   {
     id: 22,
     title: "Exception Handling in Java",
-    image: "https://cdn.pixabay.com/photo/2017/08/07/19/07/error-2607280_1280.jpg",
+    image: "/exception_handling.jpg",
     timeAgo: "3 weeks ago",
     downloads: 145,
     course: "Programming with JAVA",
@@ -197,7 +197,7 @@ const SAMPLE_SLIDES = [
   {
     id: 23,
     title: "Multithreading & Concurrency",
-    image: "https://cdn.pixabay.com/photo/2016/11/19/14/00/threads-1839409_1280.jpg",
+    image: "/multithreading.jpg",
     timeAgo: "1 month ago",
     downloads: 178,
     course: "Programming with JAVA",
@@ -205,7 +205,7 @@ const SAMPLE_SLIDES = [
   {
     id: 24,
     title: "Java IO & File Handling",
-    image: "https://cdn.pixabay.com/photo/2016/11/19/14/00/files-1839410_1280.jpg",
+    image: "/file_handling.jpg",
     timeAgo: "1 month ago",
     downloads: 156,
     course: "Programming with JAVA",
